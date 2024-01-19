@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.seccionCronoVentura {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.seccionCronoVenturaGris {
+    background-color: #F2F2F2;
+    /* width: 55%; */
+    padding: 5em;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    color: #707070;
+    
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 2em;
+    color: #707070;
+}
+.seccionCronoVenturaGris #pLargo {
+    width: 40%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-left:10% ;
+    padding-right: 10%; */
+}
+
+.caracteristicasPrincipales {
+    background-color: #F2F2F2;
+    width: 50%;
+    padding: 1em;
+    border-radius: 10px;
+margin-left: 15%;
+margin-top: 1em;
+font-family: "Lato", sans-serif;
+}
+
+.caracteristicasPrincipales #textoLargo {
+    width: 80%;
+}
+
+.seccionCaracteristicas{
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imgCaracteristicas {
+    width: 100%;
+    /* background-color: #ff0000; */
+    padding: 1em;
+}
+.cardCaracteristicas{
+    background-color: #F2F2F2;
+    width: 60%;
+    height: 21em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.colorgris{
+    margin-top: 2em;
+    background-color: #EFEFEF;
+}
+.footerTienda{
+width: 100%;
+background-color: #707070;
+display: flex;
+justify-content: space-evenly;
+}
+.decoracionP{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 1em;
+width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.divDecoracionP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+}

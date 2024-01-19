@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+header {
+    padding-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-image: url('../img/background-header.png');
+    background-repeat: no-repeat;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-left: 2em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+
+.sugerencia{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sugerenciaTexto{
+    width: 30%;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+}
+.sugerenciaTextoP{
+    font-weight: 100;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+
+}
+.botonAgregarLista{
+    background-color: #000000;
+    border: none;
+    color:white;
+    font-family: "Lato", sans-serif;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.botonAgregarLista:hover{
+    background-color: #210f94;
+    color: rgb(0, 0, 0);
+}
+.botonSiguiente{
+    background-color: white;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+.imgSiguiente{
+    width: 1em;
+}
+
+.tituloJuegosDestacados{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carruselJuegos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+.cardJuegosDestacados{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.3em;
+    padding-bottom: 0.2em;
+    color: rgb(0, 0, 0);
+    margin: 1em;
+    width: 25%;
+    
+    
+}
+.simulacionImg{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 10em;
+}
+.simulacionImgSeccion1{
+    background-color: #F2F2F2;
+    width: 30%;
+    height: 20em;
+    margin-bottom: 2em;
+}
+p{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+.ultimosEstrenos{
+    width: 100%;
+margin-top: 21%;
+display: flex;
+flex-direction: column;
+font-family: "Lato", sans-serif;
+color: rgb(0, 0, 0);
+
+}
+.tituloUltimosEstrenos{
+    display: flex;
+    align-items: center;
+    padding-left: 20em;
+    margin-bottom: -2em;
+}
+.opcinoesUltimosEstrenos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardUltimosEstrenos{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.3em;
+    padding-bottom: 0.2em;
+    color: rgb(0, 0, 0);
+    margin: 1em; 
+    width: 20%;
+    height: 8em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EEEEEE;
+    padding:1em;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: #707070;
+    padding: 2em;
+}
+.columnaFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+}
+.seccion2{
+    background-color: #EFEFEF;
+    padding: 2em;
+}
