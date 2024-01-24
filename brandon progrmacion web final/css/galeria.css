@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+}
+.headerDiv{
+    display: flex;
+align-items: center;
+}
+.imgUser{
+    width: 30px;
+    height: 30px;
+}
+.información{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+}
+.información #h2Infor{
+    margin-top: 1em;
+    padding: 0;
+    color: #737373;
+}
+.información #pInfo{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+.botonAgregarLista{
+    background-color: #000000;
+    border: none;
+    color:white;
+    font-family: "Lato", sans-serif;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    font-size: 1em;    
+}
+.botonAgregarLista:hover{
+    background-color: #3d3d3d;
+    color: rgb(255, 255, 255);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    margin-top: 2em;
+    width: 62%;
+    margin-left: 19%;
+    border-radius: 10px;
+    margin-bottom: 5em;
+}
+input{
+    border: 1px solid #E3E3E3;
+    width: 70%;
+    border-radius: 5px;
+    height: 2em;
+}
+.formulario>div{
+    padding-top: 2em;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.formulario #divRequisitos{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 60%;
+}
+button{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.requisitosInput{
+    height: 15em;
+    width: 80%;
+}
+.historiaInput{
+    width: 80%;
+    height: 10em;
+    border: 1px solid #737373;
+    border: none;
+    color: #737373;
+}
+.iconAdd{
+    width: 1.5em;
+    height: 1.5em;
+}
+footer{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    color: #EEEEEE;
+    padding:1em;
+    padding-left: 100em;
+    padding-right: 1em;
+    background-color: #707070;
+    padding: 0em;
+}
+.columnaFooter{
+    width: 20%;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+}
+.columnaFooter:first-child{
+    margin-left: 19%;
+    margin-right: 1%;
+}
